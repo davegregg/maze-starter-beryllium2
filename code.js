@@ -48,7 +48,6 @@ for (let rowIndex = 0; rowIndex < map.length; rowIndex += 1) {
       cellElement.append(playerElement)
 
       // Set our model of the player destination to the starting position, which is our CURRENT indexes:
-      const rowElement = cellElement.parentElement
       playerDestination.rowIndex = rowIndex
       playerDestination.cellIndex = cellIndex
     } else if (cellType === "F") {
