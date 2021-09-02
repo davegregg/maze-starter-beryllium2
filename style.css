@@ -1,1 +1,42 @@
-/* Write your CSS Here. */
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 3rem;
+  min-height: 3rem;
+  flex-basis: 3rem;
+  background: black;
+  outline: 2px dotted white;
+}
+
+.player {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: url("./player-background.jpg");
+  background-position: center;
+  background-size: 5rem;
+}
+
+.floor {
+  background: lightgray;
+}
+
+.start {
+  background: green;
+}
+
+.finish {
+  background: red;
+}
